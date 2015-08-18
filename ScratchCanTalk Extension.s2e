@@ -1,0 +1,12 @@
+{
+  "extensionName": "ScratchCanTalk",
+  "extensionPort": 15003,
+
+  "blockSpecs": [
+    [ " ", "Say %s as a %m.girlBoy", "speak", "Hi there!", "girl" ]
+  ],
+  
+  "menus": {
+		"girlBoy": ["girl", "boy" ],
+	},
+}
