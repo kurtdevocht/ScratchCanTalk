@@ -15,6 +15,8 @@ namespace ScratchCanTalk
             var resp = new HttpResponseMessage(HttpStatusCode.OK);
             var content = new StringBuilder();
 
+            // For this  extension no content needs to be returned...
+            //
             // content.Append("sensorX 123\n");
 
             resp.Content = new StringContent(content.ToString(), Encoding.UTF8, "text/plain");

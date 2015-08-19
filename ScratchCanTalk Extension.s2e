@@ -7,6 +7,6 @@
   ],
   
   "menus": {
-		"girlBoy": ["girl", "boy" ],
-	},
+		"girlBoy": ["girl", "boy" ]
+	}
 }
