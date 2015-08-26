@@ -8,7 +8,7 @@
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>ScratchCanTalk</RootNamespace>
-    <AssemblyName>ScratchCanTalk</AssemblyName>
+    <AssemblyName>sct</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -87,6 +87,11 @@
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>XCOPY "$(TargetDir)*.dll" "$(ProjectDir)..\..\bin\" /D /Y /F
+XCOPY "$(TargetDir)sct.exe" "$(ProjectDir)..\..\bin\" /D /Y /F
+XCOPY "$(TargetDir)sct.exe.config" "$(ProjectDir)..\..\bin\" /D /Y /F</PostBuildEvent>
+  </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
