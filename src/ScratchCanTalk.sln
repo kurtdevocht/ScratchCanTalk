@@ -7,7 +7,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScratchCanTalk", "ScratchCa
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Root", "Root", "{9DCBE39F-D472-42B0-9CA3-32EDCF09E57E}"
 	ProjectSection(SolutionItems) = preProject
+		..\.gitattributes = ..\.gitattributes
+		..\.gitignore = ..\.gitignore
+		..\demo.sb2 = ..\demo.sb2
+		..\README.md = ..\README.md
 		..\ScratchCanTalk Extension.s2e = ..\ScratchCanTalk Extension.s2e
+		..\Start Helper App.bat = ..\Start Helper App.bat
 	EndProjectSection
 EndProject
 Global
